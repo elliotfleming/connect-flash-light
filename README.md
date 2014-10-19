@@ -13,7 +13,9 @@ This is a dead simple approach to flashing data, connect-middleware style. It is
 `connect-flash-light` uses the session to store flash messages. So first, you will need to include the `session` middleware, which in turn requires the `cookieParser` middleware.
 
 ```javascript
-var flash = require('connect-flash-light');
+var cookieParser = require('cookie-parser');
+var session      = require('express-session');
+var flash        = require('connect-flash-light');
 
 var app = express();
 
