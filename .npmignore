@@ -1,0 +1,7 @@
+test/
+.DS_Store
+.npmignore
+*.log
+.git*
+README.md
+node_modules/

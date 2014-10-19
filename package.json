@@ -1,0 +1,24 @@
+{
+  "name": "connect-flash-light",
+  "version": "1.0.0",
+  "description": "A dead simple approach to flash messaging middleware.",
+  "keywords": ["flash", "connect", "express", "messages", "messaging"],
+  "homepage": "https://github.com/elliotfleming/connect-flash-light",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elliotfleming/connect-flash-light.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elliotfleming/connect-flash-light/issues"
+  },
+  "author": {
+    "name": "Elliot Fleming",
+    "email": "elliotfleming@gmail.com",
+    "url": "http://elliotfleming.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  },
+  "main": "./lib"
+}
